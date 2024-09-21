@@ -7,6 +7,10 @@ android {
     namespace = "com.ismailmesutmujde.kotlinsnackbar"
     compileSdk = 34
 
+    buildFeatures {
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId = "com.ismailmesutmujde.kotlinsnackbar"
         minSdk = 24
